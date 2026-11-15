@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* CoConnect palette: deep palm green, warm sand and clay, near-black on off-white. */
+:root {
+  --background: #faf7f0;
+  --foreground: #1b1b18;
+  --muted: #f1ebdd;
+  --muted-foreground: #5c5a52;
+  --card: #ffffff;
+  --border: #e2d9c5;
+  --primary: #1f5f3a;
+  --primary-hover: #174a2d;
+  --primary-foreground: #ffffff;
+  --sand: #e9dcc0;
+  --clay: #a35a27; /* ≥4.5:1 with white text and on the page background */
+  --clay-foreground: #ffffff;
+  --danger: #b42318;
+  --warning-bg: #fff4e0;
+  --warning-fg: #7a4a00;
+  --success-bg: #e6f4ea;
+  --success-fg: #1e5b33;
+  --ring: #2f8a55;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-sand: var(--sand);
+  --color-clay: var(--clay);
+  --color-clay-foreground: var(--clay-foreground);
+  --color-danger: var(--danger);
+  --color-warning-bg: var(--warning-bg);
+  --color-warning-fg: var(--warning-fg);
+  --color-success-bg: var(--success-bg);
+  --color-success-fg: var(--success-fg);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-latin), var(--font-sinhala), var(--font-tamil), system-ui, sans-serif;
+  /* Latin web font + system fallback (no Sinhala/Tamil web-font download). */
+  --font-ui: var(--font-latin), system-ui, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  /* Tamil and Sinhala words can be wider than a 360px phone: break only when a word cannot fit. */
+  overflow-wrap: break-word;
+}
+
+/* Sinhala/Tamil glyphs need more line height to avoid clipping. */
+:lang(si),
+:lang(ta) {
+  line-height: 1.7;
+}
+
+/* Animation budget: fade-and-rise on scroll only. */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-rise {
+  animation: rise 0.5s ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

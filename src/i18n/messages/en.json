@@ -1,0 +1,1069 @@
+{
+  "meta": {
+    "title": "CoConnect — find workers and work in Sri Lanka",
+    "description": "Post coconut plantation and construction jobs, get bids from workers and brokers near you, and connect once you choose."
+  },
+  "nav": {
+    "findWork": "Find work",
+    "postJob": "Post a job",
+    "admin": "Admin",
+    "login": "Log in",
+    "register": "Sign up",
+    "logout": "Log out",
+    "dashboard": "Dashboard",
+    "myJobs": "My jobs",
+    "myBids": "My bids",
+    "settings": "Profile & settings",
+    "language": "Language",
+    "notifications": "Notifications ({count} unread)"
+  },
+  "footer": {
+    "tagline": "Connecting landowners with workers and brokers — coconut plantations and construction first.",
+    "product": "CoConnect",
+    "browseJobs": "Browse jobs",
+    "postJob": "Post a job",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "legal": "Legal",
+    "terms": "Terms of service",
+    "privacy": "Privacy policy",
+    "intermediary": "CoConnect is an intermediary marketplace, not an employer."
+  },
+  "common": {
+    "working": "Please wait…",
+    "save": "Save",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "edit": "Edit",
+    "delete": "Delete",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "optional": "optional",
+    "none": "None",
+    "loading": "Loading…",
+    "search": "Search",
+    "viewAll": "View all",
+    "report": "Report",
+    "reason": "Reason",
+    "status": "Status",
+    "actions": "Actions",
+    "notFound": "We couldn't find that page.",
+    "goHome": "Go to the homepage",
+    "errorTitle": "Something went wrong",
+    "tryAgain": "Try again",
+    "advertisement": "Advertisement",
+    "previous": "Previous",
+    "page": "Page {page}"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "loginSubtitle": "Welcome back to CoConnect.",
+    "identifier": "Email or mobile number",
+    "identifierHint": "Mobile login works after you verify your number.",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "loginCta": "Log in",
+    "noAccount": "New to CoConnect?",
+    "registerLink": "Create an account",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "One account to post jobs and to find work.",
+    "fullName": "Full name",
+    "email": "Email",
+    "passwordHint": "At least 8 characters.",
+    "confirmPassword": "Confirm password",
+    "termsNotice": "By signing up you agree to the Terms of service and Privacy policy.",
+    "registerCta": "Sign up",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "checkEmailTitle": "Check your email",
+    "checkEmailBody": "We sent a confirmation link to {email}. Open it to activate your account.",
+    "linkExpired": "That link is invalid or has expired. Please try again.",
+    "resetTitle": "Reset your password",
+    "resetSubtitle": "We'll email you a link to choose a new password.",
+    "sendReset": "Send reset link",
+    "resetSent": "If an account exists for that email, a reset link is on its way.",
+    "newPasswordTitle": "Choose a new password",
+    "newPassword": "New password",
+    "savePassword": "Save password"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "tooShort": "This is too short.",
+    "tooLong": "This is too long.",
+    "invalid": "Please check this value.",
+    "email": "Enter a valid email address.",
+    "phone": "Enter a Sri Lankan mobile number, e.g. 077 123 4567.",
+    "password": "Use at least 8 characters.",
+    "positive": "Must be more than zero.",
+    "passwordMismatch": "Passwords don't match.",
+    "titleLength": "Title must be 10–120 characters.",
+    "descriptionLength": "Description must be at least 30 characters.",
+    "imageType": "Use a JPG, PNG or WebP photo.",
+    "imageSize": "Each photo must be under 5 MB."
+  },
+  "errors": {
+    "unknown": "Something went wrong. Please try again.",
+    "validation": "Please fix the highlighted fields.",
+    "not_authenticated": "Please log in first.",
+    "account_suspended": "Your account is suspended. Contact support.",
+    "phone_required": "Add your mobile number in your profile first.",
+    "phone_unverified": "Verify your mobile number first.",
+    "rate_limited": "You've reached today's limit. Please try again tomorrow.",
+    "not_found": "We couldn't find that.",
+    "invalid_state": "This can't be done right now — the page may be out of date. Refresh and try again.",
+    "role_required": "Add this role to your account in settings first.",
+    "role_not_self_service": "That role can only be granted by an administrator.",
+    "broker_requires_worker": "Brokers must keep the worker role.",
+    "last_role": "You need at least one role.",
+    "category_inactive": "That category is no longer available.",
+    "self_bid": "You can't bid on your own job.",
+    "job_not_open": "This job is no longer taking bids.",
+    "broker_required": "Only brokers can offer more than one worker. Add the broker role in settings.",
+    "bid_locked": "This bid can't be changed any more.",
+    "bid_not_awardable": "This bid can't be awarded.",
+    "bidder_suspended": "This bidder's account is suspended.",
+    "no_active_awards": "Award at least one bid before closing hiring.",
+    "has_active_awards": "Cancel the active awards first.",
+    "reason_required": "Please give a reason.",
+    "invalid_slip": "Upload the slip again.",
+    "payment_already_pending": "A slip is already waiting for verification.",
+    "payment_not_pending": "This payment was already processed.",
+    "own_job": "You can't review your own job.",
+    "forbidden": "You don't have permission to do that.",
+    "invalid_input": "Some values are invalid.",
+    "not_a_broker": "This user doesn't have the broker role.",
+    "too_many_images": "A job can have at most 5 photos.",
+    "thread_parent_mismatch": "That reply doesn't belong to this job.",
+    "duplicate": "That already exists.",
+    "upload_failed": "Upload failed. Please try a smaller photo.",
+    "email_taken": "An account with this email already exists. Try logging in.",
+    "auth_failed": "We couldn't complete that. Please try again.",
+    "email_not_confirmed": "Confirm your email first — check your inbox for the link.",
+    "invalid_credentials": "Wrong email/mobile or password.",
+    "same_password": "Choose a password different from your current one.",
+    "otp_failed": "That code is wrong or expired.",
+    "sms_unavailable": "SMS verification isn't available yet. Your number is saved and will be verified later.",
+    "captcha_failed": "Please complete the check that shows you're a person."
+  },
+  "location": {
+    "district": "District",
+    "chooseDistrict": "Choose a district",
+    "town": "Town / area",
+    "townHint": "The nearest town is enough.",
+    "chooseTown": "Choose a town"
+  },
+  "roles": {
+    "publisher": "Publisher",
+    "worker": "Worker",
+    "broker": "Broker",
+    "moderator": "Moderator",
+    "admin": "Administrator",
+    "publisherDesc": "Post jobs and hire workers.",
+    "workerDesc": "Find jobs and place bids.",
+    "brokerDesc": "Bid with a crew of several workers."
+  },
+  "settings": {
+    "title": "Profile & settings",
+    "welcome": "Welcome to CoConnect! Complete your profile to start posting and bidding.",
+    "completeProfile": "Add your district and mobile number to post jobs and place bids.",
+    "profile": "Profile",
+    "fullName": "Full name",
+    "bio": "About you",
+    "bioHint": "Experience, skills, the work you do. Don't include phone numbers.",
+    "crewSize": "Crew size",
+    "crewSizeHint": "How many workers you usually bring.",
+    "language": "Language for emails",
+    "languageHint": "We'll send notifications in this language.",
+    "saveProfile": "Save profile",
+    "profileSaved": "Profile saved.",
+    "uploading": "Uploading…",
+    "changePhoto": "Change photo",
+    "phoneTitle": "Mobile number",
+    "phoneExplainer": "Your number is never shown publicly. It is shared only with the other person after a job is awarded.",
+    "phone": "Mobile number",
+    "savePhone": "Save number",
+    "verified": "Verified",
+    "unverified": "Not verified",
+    "sendCode": "Send verification code",
+    "code": "Verification code",
+    "codeHint": "Enter the 6-digit code we sent by SMS.",
+    "verify": "Verify",
+    "rolesTitle": "How you use CoConnect",
+    "rolesExplainer": "One account can post jobs and find work. Turn on the roles you need.",
+    "brokerVerified": "Verified",
+    "staffRoles": "Staff roles",
+    "accountTitle": "Account",
+    "emailIs": "Signed in as {email}.",
+    "deleteAccount": "To delete your account and data, email support from this address. We act on deletion requests within 30 days."
+  },
+  "dashboard": {
+    "nav": {
+      "label": "Dashboard",
+      "overview": "Overview",
+      "myJobs": "My jobs",
+      "myBids": "My bids",
+      "notifications": "Notifications",
+      "settings": "Settings"
+    },
+    "hello": "Hello, {name}",
+    "completeProfile": "Your profile is incomplete. Add your district and mobile number.",
+    "completeNow": "Complete profile",
+    "activeJobs": "Active jobs",
+    "openBids": "Open bids",
+    "activeAwards": "Active work",
+    "postJob": "Post a job",
+    "findWork": "Find work"
+  },
+  "rateUnit": {
+    "per_worker_per_day": "per worker / day",
+    "per_day": "per day (whole crew)",
+    "per_project": "for the whole job"
+  },
+  "jobStatus": {
+    "draft": "Draft",
+    "pending_payment": "Awaiting payment",
+    "pending_review": "In review",
+    "published": "Open",
+    "rejected": "Needs changes",
+    "awarded": "Awarded",
+    "in_progress": "In progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "expired": "Expired"
+  },
+  "bidStatus": {
+    "pending": "Pending",
+    "shortlisted": "Shortlisted",
+    "accepted": "Awarded",
+    "rejected": "Not selected",
+    "withdrawn": "Withdrawn"
+  },
+  "jobForm": {
+    "newTitle": "Post a job",
+    "newSubtitle": "Free to post. Every job is checked by a moderator before it goes live.",
+    "editTitle": "Edit job",
+    "needPublisherRole": "Turn on the Publisher role to post jobs.",
+    "needPhone": "Add your mobile number before submitting — awarded workers will need it.",
+    "goToSettings": "Go to settings",
+    "rejectedBecause": "A moderator asked for changes:",
+    "stepsLabel": "Steps",
+    "steps": {
+      "category": "Type of work",
+      "location": "Location",
+      "details": "Details",
+      "rate": "Rate",
+      "photos": "Photos",
+      "review": "Review"
+    },
+    "categoryTitle": "What kind of work is it?",
+    "locationTitle": "Where is the work?",
+    "addressHint": "Landmark or area",
+    "addressHintHelp": "Shown publicly — e.g. \"near Kuliyapitiya junction\". Not your full address.",
+    "useLocation": "Use my current location",
+    "locationSet": "Approximate location saved",
+    "removeLocation": "Remove",
+    "locationPrivacy": "We only store your location to about 1 km, and never show an exact pin.",
+    "detailsTitle": "Tell workers about the job",
+    "title": "Job title",
+    "titleHint": "e.g. \"Coconut plucking, 400 trees, Kuliyapitiya\"",
+    "description": "Description",
+    "descriptionHint": "Number of trees or size of work, tools needed, food or transport provided, payment timing.",
+    "contactWarning": "It looks like you included a phone number, email or messaging app. Contact details are shared automatically after you award a bid, and posts with them are usually sent back for changes.",
+    "workersNeeded": "Workers needed",
+    "workersHint": "Leave empty if you're not sure.",
+    "daysNeeded": "Days of work",
+    "startDate": "Start date",
+    "flexible": "Start date is flexible",
+    "rateTitle": "What do you want to pay?",
+    "rateExplainer": "This is your suggested rate. Workers and brokers bid their own rate, and you choose.",
+    "suggestedRate": "Suggested rate",
+    "rateUnit": "Rate is",
+    "minimumWage": "Please make sure your rate meets the legal minimum daily wage for this work.",
+    "photosTitle": "Add photos (optional)",
+    "photosExplainer": "Up to {max} photos of the site or work. Location data is removed from photos automatically.",
+    "addPhotos": "Add photos",
+    "removePhoto": "Remove photo",
+    "reviewTitle": "Check and submit",
+    "feeNotice": "Publishing fee for this category: {fee}. You'll see bank details after submitting.",
+    "moderationNotice": "A moderator will check your job, usually within a day. You'll get an email when it's live.",
+    "submit": "Submit for review",
+    "saveDraft": "Save draft",
+    "back": "Back",
+    "next": "Next"
+  },
+  "jobs": {
+    "title": "Find work",
+    "titleIn": "Jobs in {district}",
+    "subtitle": "Coconut plantation and construction jobs across Sri Lanka.",
+    "resultCount": "{count, plural, =0 {No open jobs} one {# open job} other {# open jobs}}",
+    "nearMe": "Near me ({district})",
+    "results": "Job results",
+    "empty": "No jobs match these filters yet.",
+    "emptyHint": "Try another district or category — or post a job yourself.",
+    "beFirst": "Be the first to post in your district",
+    "featured": "Featured",
+    "workers": "{count, plural, one {# worker} other {# workers}}",
+    "days": "{count, plural, one {# day} other {# days}}",
+    "bids": "{count, plural, =0 {No bids} one {# bid} other {# bids}}",
+    "pagination": "Pages",
+    "prev": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {pages}",
+    "filters": {
+      "toggle": "Filters",
+      "search": "Search",
+      "searchPlaceholder": "e.g. plucking, masonry",
+      "district": "District",
+      "allDistricts": "All districts",
+      "category": "Type of work",
+      "allCategories": "All types",
+      "allIn": "All {name}",
+      "rate": "Rate (Rs.)",
+      "min": "Min",
+      "max": "Max",
+      "startDate": "Start date",
+      "from": "From",
+      "to": "To",
+      "sort": "Sort by",
+      "sortNewest": "Newest",
+      "sortClosing": "Closing soon",
+      "sortRate": "Highest rate",
+      "apply": "Show jobs"
+    }
+  },
+  "jobDetail": {
+    "ownerNotice": "This is your job.",
+    "manage": "Manage bids",
+    "notOpen": "This job isn't taking bids ({status}).",
+    "photoAlt": "Job photo {n}",
+    "suggestedNote": "Suggested rate — bidders offer their own.",
+    "workersNeeded": "Workers",
+    "days": "Days",
+    "start": "Starts",
+    "posted": "Posted",
+    "flexibleValue": "Flexible",
+    "dateFlexible": "The start date is flexible.",
+    "description": "About the job",
+    "approxMap": "See approximate area on a map",
+    "loginToAsk": "Log in to ask a question",
+    "contactTitle": "Contact details",
+    "bidCount": "Bids",
+    "lowestBid": "Lowest bid",
+    "loginToBid": "Log in to bid",
+    "closed": "Bidding is closed.",
+    "closes": "Bidding closes on {date}.",
+    "postedBy": "Posted by",
+    "noReviews": "No reviews yet",
+    "contactPrivacy": "Phone numbers are shared only after a bid is awarded."
+  },
+  "bid": {
+    "title": "Place your bid",
+    "editTitle": "Edit your bid",
+    "rebidTitle": "Bid again",
+    "yourBid": "Your bid",
+    "summary": "{workers} worker(s) · {days} day(s) · total {total}",
+    "edit": "Edit bid",
+    "withdraw": "Withdraw",
+    "withdrawConfirm": "Withdraw your bid? You can bid again while the job is open.",
+    "shortlistedNote": "The publisher shortlisted you. They may award soon.",
+    "rate": "Your rate (Rs.)",
+    "unit": "Rate is",
+    "workers": "Workers you'll bring",
+    "days": "Days you need",
+    "canStart": "Earliest start date",
+    "message": "Message to the publisher",
+    "messageHint": "Your experience and what's included. No phone numbers.",
+    "contactWarning": "Please don't share contact details here — they're exchanged automatically when you're awarded.",
+    "crewHint": "Have a crew? Turn on the Broker role in settings to bid for several workers.",
+    "total": "Total",
+    "submit": "Submit bid",
+    "update": "Update bid",
+    "cancelEdit": "Cancel"
+  },
+  "award": {
+    "yourWorker": "Awarded worker",
+    "yourPublisher": "Job publisher",
+    "crewOf": "Crew of {count}",
+    "noPhone": "No phone number on file yet.",
+    "markComplete": "Mark work complete",
+    "confirmComplete": "Confirm work is complete",
+    "waitingConfirm": "Waiting for the other person to confirm. It confirms automatically after 7 days.",
+    "otherRequested": "The other person marked this work complete. Please confirm.",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "cancelAward": "Cancel this award",
+    "cancelReason": "Why is it being cancelled?",
+    "confirmCancel": "Cancel award"
+  },
+  "review": {
+    "prompt": "How was working with {name}?",
+    "rating": "Rating",
+    "stars": "{count, plural, one {# star} other {# stars}}",
+    "comment": "Comment",
+    "commentPlaceholder": "What went well? Anything others should know?",
+    "submit": "Submit review",
+    "thanks": "Thanks — your review is published."
+  },
+  "qa": {
+    "title": "{count, plural, =0 {Questions} one {# question} other {# questions}}",
+    "rules": "Ask about the work. Don't post phone numbers — they're shared after a bid is awarded.",
+    "empty": "No questions yet.",
+    "ask": "Ask a question",
+    "askPlaceholder": "e.g. Is food provided?",
+    "reply": "Reply",
+    "replyPlaceholder": "Write a reply…",
+    "postQuestion": "Post question",
+    "postReply": "Reply",
+    "contactWarning": "Contact details in questions are hidden by moderators.",
+    "publisher": "Publisher",
+    "hidden": "Hidden by a moderator",
+    "deletedUser": "Member",
+    "delete": "Delete"
+  },
+  "report": {
+    "button": "Report",
+    "why": "What's wrong?",
+    "choose": "Choose a reason",
+    "reasons": {
+      "spam": "Spam",
+      "scam": "Looks like a scam",
+      "contact_info": "Shares contact details",
+      "offensive": "Offensive",
+      "wrong_category": "Wrong category",
+      "other": "Something else"
+    },
+    "details": "Details (optional)",
+    "send": "Send report",
+    "thanks": "Thanks. A moderator will look at it."
+  },
+  "manage": {
+    "back": "My jobs",
+    "views": "{count, plural, one {# view} other {# views}}",
+    "edit": "Edit",
+    "viewPublic": "View public page",
+    "submitted": "Submitted! A moderator will review your job soon.",
+    "submittedPay": "Saved. Pay the publishing fee below to send it for review.",
+    "saved": "Draft saved.",
+    "draftNotice": "This is a draft. Submit it when you're ready — only moderators see it until it's approved.",
+    "reviewNotice": "A moderator is reviewing this job. It goes live once approved.",
+    "rejectedNotice": "A moderator asked for changes. Edit the job and submit it again.",
+    "expiredNotice": "This job expired without an award.",
+    "expires": "Open for bids until {date}.",
+    "paymentTitle": "Pay the publishing fee",
+    "paymentIntro": "Transfer the exact amount below and put the reference code in the narration, then upload a photo of the slip. Verified within 24 hours on working days.",
+    "amount": "Amount",
+    "reference": "Reference code",
+    "bank": "Bank",
+    "branch": "Branch",
+    "accountName": "Account name",
+    "accountNo": "Account number",
+    "slipPending": "Your slip is waiting for verification (usually within 24 hours on working days).",
+    "slipRejected": "A previous slip was rejected: {reason}",
+    "submit": "Submit for review",
+    "closeHiring": "Stop hiring",
+    "closeConfirm": "Stop hiring now? Remaining bids will be closed. You can reopen by cancelling an award.",
+    "deleteDraft": "Delete draft",
+    "deleteConfirm": "Delete this draft permanently?",
+    "cancelJob": "Cancel this job",
+    "cancelReason": "Reason (optional)",
+    "confirmCancel": "Cancel job",
+    "awardsTitle": "Awarded",
+    "filled": "{filled} of {needed} workers",
+    "partialNotice": "You can award more bids until all workers are hired, or stop hiring now.",
+    "cancelledAwards": "{count, plural, one {# cancelled award} other {# cancelled awards}}",
+    "bidsTitle": "{count, plural, =0 {Bids} one {# bid} other {# bids}}",
+    "sortLabel": "Sort bids",
+    "sort": {
+      "total": "Lowest total",
+      "rate": "Lowest rate",
+      "rating": "Best rated",
+      "newest": "Newest"
+    },
+    "noBidsYet": "No bids yet. Most jobs get their first bid within a day or two.",
+    "noBids": "No bids.",
+    "unknownBidder": "Member",
+    "broker": "Broker",
+    "verifiedBroker": "Verified broker",
+    "noReviews": "No reviews yet",
+    "completedJobs": "{count, plural, =0 {no completed jobs} one {# completed job} other {# completed jobs}}",
+    "bidMeta": "{workers} worker(s) · {days} day(s)",
+    "total": "Total {total}",
+    "canStart": "can start {date}",
+    "award": "Award",
+    "awardConfirm": "Award this job to {name}? You'll both see each other's phone number.",
+    "shortlist": "Shortlist",
+    "unshortlist": "Remove from shortlist"
+  },
+  "payment": {
+    "slip": "Photo of your bank slip",
+    "slipHint": "A clear photo or PDF of the deposit slip or transfer receipt.",
+    "bankRef": "Reference you used",
+    "bankRefHint": "Your code is {ref}. Change this only if you used something different.",
+    "upload": "Upload slip",
+    "uploaded": "Slip uploaded. We'll verify it within 24 hours on working days and email you."
+  },
+  "myJobs": {
+    "title": "My jobs",
+    "new": "Post a job",
+    "bids": "{count, plural, =0 {no bids} one {# bid} other {# bids}}",
+    "empty": "You haven't posted any jobs yet.",
+    "postFirst": "Post your first job"
+  },
+  "myBids": {
+    "title": "My bids",
+    "total": "total {total}",
+    "awardedContact": "Awarded — see contact",
+    "completed": "Completed",
+    "empty": "You haven't bid on any jobs yet.",
+    "browse": "Find work"
+  },
+  "notificationsPage": {
+    "title": "Notifications",
+    "markAll": "Mark all as read",
+    "empty": "Nothing here yet."
+  },
+  "notifications": {
+    "emailGreeting": "Hello {name},",
+    "emailCta": "Open CoConnect",
+    "emailFooter": "You're receiving this because you have a CoConnect account.",
+    "bid_received": {
+      "title": "New bid on your job",
+      "body": "Someone bid {rate} on \"{job_title}\"."
+    },
+    "bid_shortlisted": {
+      "title": "You were shortlisted",
+      "body": "The publisher shortlisted your bid on \"{job_title}\"."
+    },
+    "bid_awarded": {
+      "title": "You got the job!",
+      "body": "Your bid on \"{job_title}\" was accepted. Open the job to see the publisher's phone number."
+    },
+    "bid_closed": {
+      "title": "Bidding closed",
+      "body": "\"{job_title}\" has been filled. Thanks for bidding."
+    },
+    "award_cancelled": {
+      "title": "Award cancelled",
+      "body": "The award for \"{job_title}\" was cancelled: {reason}"
+    },
+    "completion_requested": {
+      "title": "Please confirm the work is complete",
+      "body": "\"{job_title}\" was marked complete. Confirm it, or it confirms automatically in 7 days."
+    },
+    "review_prompt": {
+      "title": "Leave a review",
+      "body": "The work is complete. Rate the other person to help the community."
+    },
+    "review_received": {
+      "title": "You received a review",
+      "body": "Someone rated you {rating} out of 5."
+    },
+    "job_approved": {
+      "title": "Your job is live",
+      "body": "\"{job_title}\" was approved and is now open for bids."
+    },
+    "job_rejected": {
+      "title": "Your job needs changes",
+      "body": "\"{job_title}\" was sent back: {reason}"
+    },
+    "job_expiring": {
+      "title": "Your job expires soon",
+      "body": "\"{job_title}\" closes on {expires_at}. Award a bid before then."
+    },
+    "job_expired": {
+      "title": "Your job expired",
+      "body": "\"{job_title}\" expired without an award. You can post it again with a different rate."
+    },
+    "job_cancelled_admin": {
+      "title": "Your job was cancelled",
+      "body": "A moderator cancelled \"{job_title}\": {reason}"
+    },
+    "payment_verified": {
+      "title": "Payment verified",
+      "body": "We received {amount} for \"{job_title}\". It's now in review."
+    },
+    "payment_rejected": {
+      "title": "Payment slip rejected",
+      "body": "We couldn't verify your slip: {reason}. Please upload it again."
+    },
+    "question_received": {
+      "title": "New question on your job",
+      "body": "Someone asked about \"{job_title}\"."
+    },
+    "reply_received": {
+      "title": "New reply",
+      "body": "Someone replied to your question on \"{job_title}\"."
+    }
+  },
+  "profile": {
+    "memberSince": "Member since {date}",
+    "noReviews": "No reviews yet",
+    "broker": "Broker",
+    "verifiedBroker": "Verified broker",
+    "crew": "crew of {count}",
+    "completed": "{count, plural, =0 {No completed jobs} one {# completed job} other {# completed jobs}}",
+    "about": "About",
+    "reviews": "{count, plural, =0 {Reviews} one {# review} other {# reviews}}",
+    "noReviewsYet": "No reviews yet.",
+    "member": "Member",
+    "openJobs": "Open jobs"
+  },
+  "home": {
+    "hero": {
+      "title": "Find workers or find work — coconut plantations and construction.",
+      "category": "Type of work",
+      "all": "All",
+      "district": "District",
+      "anyDistrict": "All districts",
+      "search": "Search jobs",
+      "openJobs": "{count, plural, one {# open job} other {# open jobs}}",
+      "inDistrict": "{count} in {district}",
+      "avgRate": "{rate} average daily rate",
+      "empty": "New jobs are added every day. Be the first to post in your district."
+    },
+    "feed": {
+      "title": "Latest jobs",
+      "titleNear": "Latest jobs near {district}",
+      "all": "See all jobs",
+      "emptyTitle": "No jobs posted yet",
+      "emptyBody": "Landowners and contractors: post your first job free and get bids from workers near you.",
+      "emptyCta": "Be the first to post in your district"
+    },
+    "map": {
+      "title": "Where the work is",
+      "subtitle": "Open jobs by district. Tap a district to see its jobs.",
+      "label": "Open jobs by district",
+      "tile": "{name}: {count} open jobs",
+      "district": "District",
+      "openJobs": "{count, plural, =0 {No open jobs yet} one {# open job} other {# open jobs}}",
+      "avgRate": "Average {rate} per worker per day",
+      "noRate": "No rate data yet",
+      "see": "See jobs in {name}",
+      "fewer": "Fewer",
+      "more": "More"
+    },
+    "how": {
+      "title": "How CoConnect works",
+      "label": "Choose your side",
+      "ctaHire": "Post a job",
+      "ctaWork": "Find work",
+      "hire": {
+        "tab": "I need workers",
+        "s1": {
+          "title": "Post your job free",
+          "body": "Say what work, where, how many workers and your suggested daily rate. A moderator checks it."
+        },
+        "s2": {
+          "title": "Compare bids",
+          "body": "Workers and brokers bid their own rate and crew size. See ratings and completed jobs."
+        },
+        "s3": {
+          "title": "Award and call",
+          "body": "Pick one or more bids. Only then do you both see each other's phone number."
+        }
+      },
+      "work": {
+        "tab": "I want work",
+        "s1": {
+          "title": "Find jobs near you",
+          "body": "Browse by district and type of work. Ask questions before you bid."
+        },
+        "s2": {
+          "title": "Bid your rate",
+          "body": "Offer your daily rate, days and — for brokers — your crew size."
+        },
+        "s3": {
+          "title": "Get rated",
+          "body": "After the work, both sides rate each other. Good ratings win more jobs."
+        }
+      }
+    },
+    "calc": {
+      "title": "What does the work cost?",
+      "subtitle": "Real numbers from bids and jobs on CoConnect.",
+      "category": "Type of work",
+      "workers": "Workers",
+      "days": "Days",
+      "typical": "Typical rate",
+      "perWorkerDay": "per worker / day",
+      "range": "Most bids between {low} and {high}",
+      "total": "Estimated total: {total}",
+      "source": {
+        "bids": "Based on {count} bids.",
+        "jobs": "Based on {count} posted jobs.",
+        "all": "Average across all jobs.",
+        "none": ""
+      },
+      "noData": "Not enough data for this work yet. Post a job and see what workers bid.",
+      "postAt": "Post a job at {rate}",
+      "post": "Post a job"
+    },
+    "trust": {
+      "title": "Built for trust",
+      "moderated": {
+        "title": "Every job is checked",
+        "body": "A moderator reviews each post before it goes live."
+      },
+      "verified": {
+        "title": "Real phone numbers",
+        "body": "Members verify their mobile number."
+      },
+      "ratings": {
+        "title": "Ratings on both sides",
+        "body": "Workers rate publishers and publishers rate workers, after real jobs only."
+      },
+      "private": {
+        "title": "Contact stays private",
+        "body": "Phone numbers are never public — shared only after you award a job."
+      }
+    },
+    "categories": {
+      "title": "Types of work",
+      "count": "{count, plural, =0 {no open jobs} one {# open job} other {# open jobs}}"
+    },
+    "faq": {
+      "title": "Questions",
+      "free": {
+        "q": "Is it free?",
+        "a": "Yes. Posting jobs and bidding are free right now."
+      },
+      "contact": {
+        "q": "When do I get the phone number?",
+        "a": "As soon as a publisher awards your bid, you both see each other's phone number on the job page and by email. Before that, numbers are never shown."
+      },
+      "choose": {
+        "q": "Do I have to take the lowest bid?",
+        "a": "No. Compare rates, ratings, completed jobs and messages, and award whoever you trust most."
+      },
+      "broker": {
+        "q": "I bring a crew. Can I bid for all of them?",
+        "a": "Yes — turn on the Broker role in settings and you can bid for several workers at once."
+      },
+      "pay": {
+        "q": "How do I pay the workers?",
+        "a": "You pay workers directly, as you agree on the phone. CoConnect does not handle wages."
+      },
+      "safety": {
+        "q": "How do you keep it safe?",
+        "a": "Every job is moderated, contact details are private until award, and anyone can report a post or person."
+      },
+      "rejected": {
+        "q": "My job was sent back. What now?",
+        "a": "The moderator's reason is on your job page. Edit the job and submit it again."
+      },
+      "multi": {
+        "q": "Can I hire more than one broker for one job?",
+        "a": "Yes. Award several bids until you have all the workers you need, or stop hiring at any time."
+      },
+      "complete": {
+        "q": "What happens when the work is done?",
+        "a": "Either side marks it complete and the other confirms (or it confirms itself after 7 days). Then you can both leave a review."
+      },
+      "delete": {
+        "q": "How do I delete my account?",
+        "a": "Email support from your account's email address. We delete your data within 30 days, except what the law requires us to keep."
+      }
+    }
+  },
+  "legal": {
+    "draftNotice": "Draft for legal review. This page summarises how CoConnect works and must be reviewed by a lawyer before public launch.",
+    "terms": {
+      "title": "Terms of service",
+      "intermediary": {
+        "h": "CoConnect is an intermediary",
+        "p": "CoConnect connects people who need work done with workers and brokers. We are not an employer, contractor or agent of any user, and we do not direct, supervise or guarantee any work."
+      },
+      "accounts": {
+        "h": "Your account",
+        "p": "You must give accurate information, keep your password safe, and use one account. You are responsible for activity on your account."
+      },
+      "posting": {
+        "h": "Posting jobs",
+        "p": "Jobs must be real, lawful and in the right category, and rates should meet legal minimum wages. Moderators may reject, edit-request or remove any post."
+      },
+      "bidding": {
+        "h": "Bidding and awards",
+        "p": "A bid is an offer. When a publisher awards a bid, both parties' phone numbers are shared so they can agree the details directly."
+      },
+      "conduct": {
+        "h": "Conduct",
+        "p": "No harassment, scams, discrimination, or attempts to bypass the platform by posting contact details. We may suspend accounts that break these rules."
+      },
+      "fees": {
+        "h": "Fees",
+        "p": "Posting is currently free. If fees are introduced, they will be shown before you submit, and bank transfers are verified manually."
+      },
+      "liability": {
+        "h": "Liability",
+        "p": "Agreements about work and payment are between users. To the extent the law allows, CoConnect is not liable for losses arising from those agreements."
+      },
+      "changes": {
+        "h": "Changes",
+        "p": "We may update these terms and will notify you of important changes."
+      }
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "collect": {
+        "h": "What we collect",
+        "p": "Your name, email, mobile number, district and town, profile details, the jobs, bids, reviews and messages you post, and basic technical logs."
+      },
+      "use": {
+        "h": "How we use it",
+        "p": "To run the marketplace, moderate content, prevent abuse, send notifications and improve the service. We follow Sri Lanka's Personal Data Protection Act No. 9 of 2022."
+      },
+      "share": {
+        "h": "Who sees what",
+        "p": "Your public profile (name, district, ratings) is visible to everyone. Job posts are public once approved. Bids are visible only to you and the job's publisher."
+      },
+      "phone": {
+        "h": "Your phone number",
+        "p": "Your number is never shown publicly. It is shared only with the other party when a job is awarded."
+      },
+      "retention": {
+        "h": "How long we keep it",
+        "p": "We keep your data while your account is active and delete it within 30 days of a deletion request, except records the law requires us to keep."
+      },
+      "rights": {
+        "h": "Your rights",
+        "p": "You can access, correct or delete your data, and withdraw consent, by contacting us."
+      },
+      "security": {
+        "h": "Security",
+        "p": "Data is stored with access controls on every table, private storage for payment slips, and location data removed from photos."
+      },
+      "contact": {
+        "h": "Contact",
+        "p": "For privacy questions or to report a data breach, email support from your account's email address."
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin",
+    "nav": {
+      "label": "Admin",
+      "dashboard": "Dashboard",
+      "moderation": "Moderation",
+      "jobs": "Jobs",
+      "reports": "Reports",
+      "users": "Users",
+      "payments": "Payments",
+      "categories": "Categories",
+      "ads": "Ads",
+      "settings": "Settings",
+      "audit": "Audit log"
+    },
+    "common": {
+      "done": "Done",
+      "cancel": "Cancel",
+      "choosePreset": "Choose a reason",
+      "addDetail": "Add detail (optional)"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "pendingReview": "Jobs awaiting review",
+      "pendingPayments": "Payments to verify",
+      "openReports": "Open reports",
+      "signupsToday": "Sign-ups today",
+      "awardsWeek": "Awards this week",
+      "published": "Open jobs"
+    },
+    "moderation": {
+      "title": "Moderation queue ({count})",
+      "empty": "Nothing to review. 🎉",
+      "flagged": "Possible contact details found",
+      "submitted": "submitted {time}",
+      "meta": "Workers: {workers} · Days: {days} · Start: {start}",
+      "publisher": "Publisher",
+      "rating": "{avg}★ ({count})",
+      "approve": "Approve",
+      "reject": "Reject",
+      "rejectReason": "Reason for rejection (sent to the publisher)",
+      "presets": {
+        "contact": "Contact details in the description",
+        "minWage": "Rate below legal minimum",
+        "unclear": "Unclear job description",
+        "category": "Wrong category",
+        "scam": "Suspected scam",
+        "duplicate": "Duplicate posting"
+      }
+    },
+    "jobs": {
+      "title": "All jobs",
+      "search": "Search title/description or job id",
+      "status": "Status",
+      "allStatuses": "All statuses",
+      "filter": "Filter",
+      "featured": "Featured",
+      "bids": "{count, plural, one {# bid} other {# bids}}",
+      "created": "created {date}",
+      "expires": "expires {date}",
+      "feature": "Feature",
+      "unfeature": "Unfeature",
+      "unpublish": "Unpublish",
+      "extend": "Extend",
+      "extendDays": "Extend by how many days?",
+      "cancel": "Cancel job",
+      "reason": "Reason"
+    },
+    "payments": {
+      "title": "Payments",
+      "queue": "Slips to verify ({count})",
+      "empty": "No slips waiting.",
+      "slipAlt": "Bank slip",
+      "noSigner": "Set SUPABASE_SERVICE_ROLE_KEY to view slips.",
+      "expectedRef": "Expected reference",
+      "claimedRef": "Reference on slip",
+      "user": "User",
+      "job": "Job",
+      "uploaded": "Uploaded",
+      "refMismatch": "The reference doesn't match — check the amount carefully against the bank statement.",
+      "verify": "Verify",
+      "verifyConfirm": "Confirm this amount is in the bank statement?",
+      "reject": "Reject",
+      "rejectReason": "Why is the slip rejected? (sent to the user)",
+      "presets": {
+        "notReceived": "Payment not received in our account",
+        "wrongAmount": "Amount doesn't match",
+        "unreadable": "Slip photo is unreadable"
+      },
+      "awaiting": "Jobs awaiting payment ({count})",
+      "waive": "Waive fee",
+      "waiveNote": "Note (why it's waived)",
+      "recent": "Recently processed",
+      "status": {
+        "verified": "Verified",
+        "rejected": "Rejected"
+      }
+    },
+    "users": {
+      "title": "Users",
+      "search": "Name, email, phone or id",
+      "searchBtn": "Search",
+      "noPhone": "no phone",
+      "verified": "verified",
+      "unverified": "unverified",
+      "stats": "Joined {joined} · {posted} posted · {completed} completed · {rating}★ ({reviews}) · {cancels} cancelled awards",
+      "suspended": "Suspended",
+      "brokerVerified": "Verified broker",
+      "grant": "+ {role}",
+      "revoke": "− {role}",
+      "confirmRole": "Change this user's roles?",
+      "verifyBroker": "Verify broker",
+      "unverifyBroker": "Remove broker verification",
+      "suspend": "Suspend",
+      "unsuspend": "Unsuspend",
+      "suspendReason": "Reason for suspension"
+    },
+    "reports": {
+      "title": "Reports",
+      "showAll": "Show all",
+      "showOpen": "Show open only",
+      "empty": "No open reports.",
+      "by": "reported by {name}, {time}",
+      "types": {
+        "job": "Job",
+        "profile": "Profile",
+        "thread": "Q&A post",
+        "review": "Review"
+      },
+      "hidden": "hidden",
+      "gone": "This content no longer exists.",
+      "hide": "Hide content",
+      "unhide": "Unhide",
+      "unpublish": "Unpublish job",
+      "suspend": "Suspend author",
+      "reason": "Reason",
+      "actioned": "Mark actioned",
+      "dismiss": "Dismiss",
+      "reopen": "Reopen"
+    },
+    "categories": {
+      "title": "Categories",
+      "feesOn": "Fees are ON: publishers pay the category fee before review.",
+      "feesOff": "Fees are OFF: posting is free whatever the category fee says.",
+      "inactive": "Inactive",
+      "new": "Add a category",
+      "nameEn": "Name (English)",
+      "nameSi": "Name (Sinhala)",
+      "nameTa": "Name (Tamil)",
+      "slug": "Slug",
+      "parent": "Parent",
+      "noParent": "— Top level —",
+      "icon": "Icon",
+      "iconHint": "Lucide icon name, e.g. hammer",
+      "unit": "Default rate unit",
+      "fee": "Publish fee (Rs.)",
+      "feeHint": "Charged only when fees are enabled.",
+      "sort": "Sort order",
+      "active": "Active",
+      "save": "Save",
+      "create": "Create",
+      "saved": "Saved."
+    },
+    "ads": {
+      "title": "Ads",
+      "explainer": "Ads are matched by slot, then district + category, district, or nationwide. They stay hidden until a district has at least 10 open jobs.",
+      "new": "New ad",
+      "inactive": "Inactive",
+      "stats": "{impressions} views · {clicks} clicks · {ctr}% CTR",
+      "adTitle": "Title",
+      "url": "Link",
+      "slot": "Slot",
+      "slots": {
+        "home_hero": "Homepage",
+        "listing_inline": "Job listing",
+        "job_sidebar": "Job page sidebar"
+      },
+      "image": "Image",
+      "imageHint": "Wide image, about 3:1.",
+      "imageKeep": "Leave empty to keep the current image.",
+      "district": "District",
+      "nationwide": "Nationwide",
+      "category": "Category",
+      "anyCategory": "Any category",
+      "starts": "Starts",
+      "ends": "Ends",
+      "active": "Active",
+      "save": "Save",
+      "create": "Create",
+      "saved": "Saved.",
+      "delete": "Delete ad",
+      "deleteConfirm": "Delete this ad?"
+    },
+    "settings": {
+      "title": "Settings",
+      "saved": "Settings saved.",
+      "fees": "Publishing fees",
+      "feesEnabled": "Charge publishing fees",
+      "feesHint": "When on, jobs in categories with a fee wait for a verified bank slip before review.",
+      "bank": "Bank",
+      "branch": "Branch",
+      "accountName": "Account name",
+      "accountNo": "Account number",
+      "general": "General",
+      "expiryDays": "Days a job stays open",
+      "requireVerify": "Require verified phone to post and bid",
+      "requireVerifyHint": "Turn on only after SMS (OTP) is configured in Supabase Auth.",
+      "banner": "Site banner",
+      "bannerHint": "Shown at the top of every page. Leave empty to hide.",
+      "save": "Save settings"
+    },
+    "audit": {
+      "title": "Audit log",
+      "action": "Action",
+      "actor": "Actor id",
+      "filter": "Filter",
+      "when": "When",
+      "target": "Target",
+      "details": "Details",
+      "system": "system"
+    }
+  }
+}
